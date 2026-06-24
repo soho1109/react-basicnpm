@@ -2,6 +2,7 @@ import "./App.css";
 import Myheader from "./components/Myheader";
 import Nav from "./components/Nav";
 import MyArticle from "./components/MyArticle";
+import Controls from "./components/controls";
 import { useState } from "react";
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
         }}
       />
       <MyArticle title={_title} desc={_desc} />
+      <hr />
+      <Controls />
     </>
   );
 }
