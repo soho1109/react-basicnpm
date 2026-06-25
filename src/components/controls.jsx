@@ -1,11 +1,15 @@
-function Controls({onChangeMode}){
+function Controls({ onChangeMode }) {
   console.log("Controls render");
   return (
     <div className="menu">
-      <button onClick={() => {
+      <button
+        onClick={() => {
           onChangeMode();
-        }}>Create</button>
+        }}
+      >
+        Create
+      </button>
     </div>
   );
 }
-  export default Controls;
+export default Controls;
